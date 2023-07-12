@@ -1,0 +1,16 @@
+{
+  "name": "release_note_utils",
+  "version": "0.1.0",
+  "description": "output release note from git repository.",
+  "author": "w-toguchi",
+  "license": "MIT",
+  "scripts": {
+    "note": "node ./index.js",
+    "log": "node ./index.js --skip-ai"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "dotenv": "^16.3.1",
+    "openai": "^3.3.0"
+  }
+}
